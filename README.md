@@ -1,4 +1,4 @@
-# libpomelo2_iOSDemo
+# libpomelo2_iOSDemo(用13.5编译，高版本请自己编译)
 
 ## 描述
 * Demo使用libpomelo2编译出的静态库，实现连接服务端，发送请求，获取推送

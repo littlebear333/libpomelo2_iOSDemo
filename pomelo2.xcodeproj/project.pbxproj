@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C45C64632580683000ECFF50 /* libopenssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C45C64602580683000ECFF50 /* libopenssl.a */; };
-		C45C64642580683000ECFF50 /* libuv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C45C64612580683000ECFF50 /* libuv.a */; };
-		C45C64652580683000ECFF50 /* libpomelo2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C45C64622580683000ECFF50 /* libpomelo2.a */; };
 		C45C64682580695000ECFF50 /* PomeloHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C45C64672580695000ECFF50 /* PomeloHelper.m */; };
+		C492AC60258AF800003CFBEF /* libopenssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C492AC5D258AF800003CFBEF /* libopenssl.a */; };
+		C492AC61258AF800003CFBEF /* libuv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C492AC5E258AF800003CFBEF /* libuv.a */; };
+		C492AC62258AF800003CFBEF /* libpomelo2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C492AC5F258AF800003CFBEF /* libpomelo2.a */; };
 		C4971AE2257C98C800F5066D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4971AE1257C98C800F5066D /* AppDelegate.m */; };
 		C4971AE5257C98C800F5066D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4971AE4257C98C800F5066D /* SceneDelegate.m */; };
 		C4971AE8257C98C800F5066D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4971AE7257C98C800F5066D /* ViewController.m */; };
@@ -21,9 +21,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C45C64602580683000ECFF50 /* libopenssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopenssl.a; sourceTree = "<group>"; };
-		C45C64612580683000ECFF50 /* libuv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libuv.a; sourceTree = "<group>"; };
-		C45C64622580683000ECFF50 /* libpomelo2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpomelo2.a; sourceTree = "<group>"; };
 		C45C64662580695000ECFF50 /* PomeloHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PomeloHelper.h; sourceTree = "<group>"; };
 		C45C64672580695000ECFF50 /* PomeloHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PomeloHelper.m; sourceTree = "<group>"; };
 		C465BC81257F10AB0076AD18 /* pomelo_trans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pomelo_trans.h; sourceTree = "<group>"; };
@@ -152,6 +149,9 @@
 		C465C62C257F488B0076AD18 /* idea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idea.h; sourceTree = "<group>"; };
 		C465C62D257F488B0076AD18 /* lhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lhash.h; sourceTree = "<group>"; };
 		C465C62E257F488B0076AD18 /* asn1err.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1err.h; sourceTree = "<group>"; };
+		C492AC5D258AF800003CFBEF /* libopenssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopenssl.a; sourceTree = "<group>"; };
+		C492AC5E258AF800003CFBEF /* libuv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libuv.a; sourceTree = "<group>"; };
+		C492AC5F258AF800003CFBEF /* libpomelo2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpomelo2.a; sourceTree = "<group>"; };
 		C4971ADD257C98C800F5066D /* pomelo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pomelo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4971AE0257C98C800F5066D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C4971AE1257C98C800F5066D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -172,9 +172,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C45C64642580683000ECFF50 /* libuv.a in Frameworks */,
-				C45C64632580683000ECFF50 /* libopenssl.a in Frameworks */,
-				C45C64652580683000ECFF50 /* libpomelo2.a in Frameworks */,
+				C492AC61258AF800003CFBEF /* libuv.a in Frameworks */,
+				C492AC60258AF800003CFBEF /* libopenssl.a in Frameworks */,
+				C492AC62258AF800003CFBEF /* libpomelo2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,9 +373,9 @@
 		C4971BCD257CA77100F5066D /* prebuild */ = {
 			isa = PBXGroup;
 			children = (
-				C45C64602580683000ECFF50 /* libopenssl.a */,
-				C45C64622580683000ECFF50 /* libpomelo2.a */,
-				C45C64612580683000ECFF50 /* libuv.a */,
+				C492AC5D258AF800003CFBEF /* libopenssl.a */,
+				C492AC5F258AF800003CFBEF /* libpomelo2.a */,
+				C492AC5E258AF800003CFBEF /* libuv.a */,
 			);
 			path = prebuild;
 			sourceTree = "<group>";

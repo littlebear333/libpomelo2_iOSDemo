@@ -15,7 +15,7 @@ static requestBack mRequestBack;
 static inputData mInputData;
 static pc_client_t* client;
 #define HOST ""
-#define PORT 8080
+#define PORT 3080
 #define EV_HANDLER_EX ((void*)0x44)
 #define REQ_ROUTE "sconnector.entryHandler.connect"
 #define REQ_MSG  @"{\"access_token\":\"%@\",\"refresh_token\":\"%@\",\"userId\":\"%@\",\"version\":12,\"hostname\":\"www\",\"mobileVersion\":4,\"terminalInfo\":{\"terminalName\":\"appoffice\",\"terminalType\":\"android\"},\"lang\":\"cn\",\"app\":\"appoffice\",\"appVer\":5}"
